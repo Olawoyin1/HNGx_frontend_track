@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    
 }
+
 
 img{
     width: 100%;
@@ -13,13 +16,11 @@ img{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    /* font-family: 'Raleway', sans-serif; */
     min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #333; */
     background-color: #f2f2f2;
 }
 
@@ -27,6 +28,8 @@ main{
     width: 350px;
     max-width: 100%;
     background-color: #fff ;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 
@@ -35,6 +38,7 @@ main{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     overflow: hidden;
     display: flex;
+    gap: 0.6rem;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
@@ -53,4 +57,9 @@ main{
 
 .card h1 {
     font-weight: 800;
+}
+
+p[data-testid="myTrack"]{
+    color: red;
+    font-family: raleway;
 }

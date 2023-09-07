@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HNGx frontend track</title>
 
+    <!-- unicorn iconscout link -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
     <!-- link css styles -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main>
-        <div class="card">
-            <div class="card-image">
-                <img data-testid="slackDisplayImage" src="Images/ola.png" width="100%" height="174" alt="Gbolahan">
-            </div>
-            <h1 data-testid="slackUserName">Olawoyin Gbolahan</h1>
-            <p data-testid="currentDayOfTheWeek">Thursday</p>
-            <p data-testid="currentUTCTime">Thursday</p>
-            <p data-testid="myTrack">Front-End Developer</p>
-            <a href="http://www.github.com/Olawoyin1">View github page</a>
+      <div class="card">
+        <div class="card-image">
+          <img
+            data-testid="slackDisplayImage"
+            src="Images/ola.png"
+            width="100%"
+            height="174"
+            alt="Gbolahan"
+          />
         </div>
+        <h2 data-testid="slackUserName">Olawoyin Gbolahan</h2>
+        <p data-testid="myTrack">Front-End Developer</p>
+        <p data-testid="currentDayOfTheWeek">Thursday</p>
+        <p data-testid="currentUTCTime">12:02pm</p>
+        <a href="http://www.github.com/Olawoyin1" data-testid="“githubURL”"
+          ><i class="uil uil-github"></i> Follow me</a
+        >
+      </div>
     </main>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>
